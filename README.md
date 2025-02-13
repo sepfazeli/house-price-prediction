@@ -3,7 +3,7 @@
 Welcome to the House Price Prediction repository! 🚀 This project leverages XGBoost to predict Airbnb listing prices based on various features such as location, amenities, and property details.
 
 📌 Features
-
+ 
 Machine Learning Model: Uses a pre-trained XGBoost model for price prediction.
 Feature Selection: Implements Variance Thresholding to remove low-variance features.
 Data Preprocessing: Handles missing values and categorical encoding.
