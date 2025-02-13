@@ -6,21 +6,6 @@ This project utilizes XGBoost to predict Airbnb listing prices based on various 
 
 👉 Machine Learning Model – Uses a pre-trained XGBoost model for price prediction.👉 Feature Selection – Implements Variance Thresholding to remove low-variance features.👉 Data Preprocessing – Handles missing values, categorical encoding, and ensures feature consistency.👉 Scalable & Modular – Designed for easy dataset expansion and model updates.
 
-📚 Project Structure
-
-📦 house-price-prediction
-👉 📚 data
-│   ├── airbnb_listings.csv         # Original dataset
-│   ├── new_airbnb_listings.csv     # New data for predictions
-👉 📚 models
-│   ├── airbnb_price_xgb.pkl        # Trained XGBoost model
-│   ├── feature_selector.pkl        # Variance threshold feature selector
-👉 📚 src
-│   ├── app.py                      # Main script for loading, preprocessing & predicting
-│   ├── utils.py                     # Utility functions (if needed)
-├── requirements.txt                 # Python dependencies
-└── README.md                        # This file
-
 🛠 Installation & Setup
 
 1⃣ Clone the repository
